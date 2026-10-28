@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    font-family: "Open Sans", sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color: white;
+}
+
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:100%;
+    max-width: 1440px;
+    margin:0 auto;
+    padding: 20px 24px;
+    background-color:white;
+}
+
+.header-container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color:white;
+    width:100%;
+    max-width: 1440px;
+    margin:0 auto;
+    padding: 20px 24px;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:9px;
+}
+
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+.logo span{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.acciones {
+    text-decoration:none;
+    font-size:14px;
+    gap: 15px;
+}
+
+.navbar{
+    display:flex;
+    align-items:center;
+    gap: 26px;
+    left: 10px;
+}
+
+.navbar a, 
+.acciones a{
+    text-decoration:none;
+    color: #111;
+    font-size: 14px;
+}
+
+.boton__prueba{
+    background-color:white;
+    color:black;
+    padding: 8px 10px;
+    border-radius:25px;
+}
+
+.acciones .boton__habla{
+    background-color:black;
+    color:white;
+    padding: 8px 10px;
+    border-radius:25px;
+   
+}
+
+.bi-search{
+    font-size: 10px;
+    color: black;
+    gap: 10px;
+}
